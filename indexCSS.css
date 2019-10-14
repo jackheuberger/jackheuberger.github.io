@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #788585;
+}
+.jumbotron {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    background-color: #1F282D;
+    color: #F2EFE9;
+}
+.h1 {
+    color: #CCDAD1;
+}
+.contact {
+    font-size: 32px;
+}
+.card{
+    background-color: #CCDAD1;
+}
