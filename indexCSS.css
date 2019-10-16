@@ -6,7 +6,7 @@ body {
 }
 .jumbotron {
     padding-top: 8%;
-    padding-bottom: 5%;
+    padding-bottom: 2%;
     background-color: #1F282D;
     color: #F2EFE9;
 }
@@ -19,4 +19,7 @@ body {
 }
 .card{
     background-color: #CCDAD1;
+}
+a {
+    color: #ffffff;
 }
