@@ -19,7 +19,11 @@ body {
 }
 .card{
     background-color: #CCDAD1;
+    margin: .25rem;
 }
 a {
     color: #ffffff;
+}
+img {
+    clip-path: circle(43.4% at 50% 50%);
 }
