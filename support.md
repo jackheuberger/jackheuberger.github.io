@@ -1,5 +1,5 @@
 ---
-title: PAGE TITLE HERE
+title: support.html
 layout: template
-filename: NAME OF THIS .md FILE HERE
+filename: support.md
 --- 
