@@ -19,13 +19,14 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
   <link rel="stylesheet" href="indexCSS.css" />
   <script src="https://kit.fontawesome.com/568a02d900.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
 
 <body>
   <div class="jumbotron jumbotron-fluid text-center">
     <div class="container">
       <h1 class="display-2">Jack Heuberger</h1>
-      <h3>Computer Science, Web Design, Game Development</h3>
+      <h3>Computer Science @ WashU</h3>
       <div class="container contact">
         <a href="https://www.github.com/jackheuberger"><i class="fab fa-github"></i></a>
         <a href="mailto:jackheuberger5@gmail.com"><i class="fas fa-mail-bulk"></i></a>
@@ -35,77 +36,49 @@
       <img src="20190830_133631.jpg" width="200px" />
     </div>
   </div>
-  <div class="text-center">
-    <a class="btn btn-dark btn-lg resume" href="./Jack_Heuberger_Resume.pdf" role="button">Resume</a>
-  </div>
-  <p class="h1 text-center">Projects:</p>
-  <div class="container" style="margin-bottom: 10%">
-    <div class="row justify-content-center">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">BHSSchedule.app</h5>
-          <p class="card-text">
-            A website created to track the 2019/2020 Brookline High Schedule.
-          </p>
-          <br />
-          <div class="btn-group btn-group-sm" role="group">
-            <a href="https://jackheuberger.com/bhsschedule.app" class="btn btn-outline-dark">Site</a>
-            <a href="https://www.github.com/jackheuberger/bhsschedule.app" class="btn btn-outline-dark">Source</a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">BHS Job Board</h5>
-          <p class="card-text">
-            A web app designed to help high school students find relevant local opportunities.
-          </p>
-          <br />
-          <div class="btn-group btn-group-sm" role="group">
-            <a href="https://bhsjobs.herokuapp.com/" class="btn btn-outline-dark">Site</a>
-            <a href="https://github.com/jackheuberger/blinejobboard" class="btn btn-outline-dark">Source</a>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Halls of Attonement</h5>
-          <p class="card-text">
-            Submission for the Ludum Dare #43 game jam. Created with Mo Kyn
-            and Jackson Payne.
-          </p>
-          </br>
-          <div class="btn-group btn-group-sm" role="group">
-            <a href="https://ieatsponge.itch.io/halls-of-atonement" class="btn btn-outline-dark">Play</a>
-            <a href="https://github.com/jackheuberger/Halls-of-Atonement" class="btn btn-outline-dark">Source</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="card" style="width: 18rem;">
-        <div class="card-body">
-          <h5 class="card-title">Untitled Game Demo</h5>
-          <p class="card-text">
-            A rhythm-based platformer demo, created with Jackson Payne for EPIC.
-          </p>
-          </br>
-          <div class="btn-group btn-group-sm" role="group">
-            <!--
-              <a
-                href="https://ieatsponge.itch.io/halls-of-atonement"
-                class="btn btn-outline-dark"
-                >Play</a
-              >
-              -->
-            <a href="https://github.com/jackheuberger/Better-Geometry-Dash" class="btn btn-outline-dark">Source</a>
-          </div>
-        </div>
-      </div>
+  <div class="container container-fluid">
+    <strong class="h1">Hey! I'm Jack,</strong>
+    <p class="h4">I'm a sophomore studying <strong id="CS">Computer Science</strong> at <strong id="WashU">Washington
+        University in St.
+        Louis</strong> (expected 2024). </p>
+    <p class="h4">I'm currently looking for internships for <strong id="JS">Summer 2022</strong>.</p>
+    <p class="h4">My favorite tools and languages include <em id="lang0.">Javascript, C++, Java, Docker, and Linux</em>.
+    </p>
+    <p class="h4">Some notable projects of mine include:</p>
+    <dl>
+      <dt class="h5"><strong id="CS">STS Printer Status Report</strong> <a
+          href="https://sts.wustl.edu/services/printing/check-printer-status/"> <i class="bi bi-folder-symlink"></i></a>
+      </dt>
+      <dd class="h5 tab">A system for monitoring the status of residential and on-campus printers. I took over this
+        project in 2020, and am currently modernizing it as a full-stack Node.JS application using Express and MongoDB.
+        Goals include Microsoft Teams integration and deployment to a cloud service provider.
+      </dd>
+      <dt class="h5"><strong id="WashU">BHS Job Board</strong> <a href="https://bhsjobs.herokuapp.com/"> <i
+            class="bi bi-folder-symlink"></i></a> <a href="https://github.com/jackheuberger/blinejobboard"> <i
+            class="bi bi-github"></i></a>
+      </dt>
+      <dd class="h5 tab">A web app designed to help high school students find relevant local opportunities. Written
+        (again) in Node.JS with Express and MongoDB. I'm proud of this project as to how I was able to authenticate
+        users with Google accounts and filter accounts based on the domain of their email, therefore only letting
+        certain domains access certain views of the app.
+      </dd>
+      <dt class="h5"><strong id="JS">BHSSchedule.app</strong> <a href="https://jackheuberger.com/bhsschedule.app/
+        "> <i class="bi bi-folder-symlink"></i></a> <a href="https://github.com/jackheuberger/bhsschedule.app"> <i
+            class="bi bi-github"></i></a>
+      </dt>
+      <dd class="h5 tab">A static site that tracked the 2019/2020 Brookline High School class schedule. This was written
+        in regular vanilla HTML/CSS/Javascript and was hosted for free on Github Pages. This project recieved 30,000
+        pageviews per month during that school year.</dd>
+    </dl>
+    <p class="h4">That's pretty much it! Here are some links if you'd like to contact me. Thanks for reading!</p>
+    <div class="container contact text-center">
+      <a href="https://www.github.com/jackheuberger"><i class="fab fa-github"></i></a>
+      <a href="mailto:jackheuberger5@gmail.com"><i class="fas fa-mail-bulk"></i></a>
+      <a href="https://linkedin.com/in/jackheuberger"><i class="fab fa-linkedin"></i></a>
     </div>
 
 
-  </div>
+
 </body>
 
 </html>
